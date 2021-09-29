@@ -48,7 +48,7 @@ const start = async () => {
     })
     console.log('Connected to db');
   } catch (err) {
-    console.error(err)
+    console.error(err);
   }
 }
 
