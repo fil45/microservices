@@ -25,7 +25,7 @@ app.use(signupRouter);
 
 app.all('*', async () => {
   throw new NotFoundError();
-})
+});
 
 app.use(errorHandler);
 
